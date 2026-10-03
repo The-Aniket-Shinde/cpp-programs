@@ -91,25 +91,25 @@ using namespace std;
 // }    
 
 
-//printing prime no 1 to 2
-// int main() { 
-//     int n, i, c, b; 
-//     cout << "Enter the number: " << endl; 
-//     cin >> n; 
+//printing prime no 1 to N
+// int main(){ 
+//     int n,i,c,b; 
+//     cout<<"Enter the number: " << endl; 
+//     cin>>n; 
     
-//     for (i = 2; i <= n; i++) { 
-//         c = 2; 
-//         b = 0; 
-//         while (c < i) { 
-//             if (i % c == 0) { 
-//                 b++;
-//                 break;
-//             }
-//             c++; 
-//         } 
-//         if (b == 0) { 
-//             cout << i << ", "; 
-//         } 
-//     } 
-//     return 0;
+    // for (i=2; i<=n;i++) { 
+    //     c=2; 
+    //     b=0; 
+    //     while(c<i){ 
+    //         if(i%c==0){ 
+    //             b++;
+    //             break;
+    //         }
+    //         c++; 
+    //     } 
+    //     if(b==0){ 
+    //         cout<<i<<", "; 
+    //     } 
+    // } 
+    // return 0;
 // }
